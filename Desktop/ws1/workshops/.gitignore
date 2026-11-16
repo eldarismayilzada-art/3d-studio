@@ -1,0 +1,15 @@
+# Build output (binaries, .o and .d files all live here)
+build/
+
+# Safety net in case something gets built in place
+*.o
+*.d
+*.exe
+
+# Editor and OS clutter
+*~
+*.swp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
